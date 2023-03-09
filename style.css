@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.header {
+    max-width: 1200px;
+    margin: 17px  auto;
+    display: flex;
+    justify-content: space-between;
+    color:#95E1D3;
+}
+.MoGo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+}
+.nav {
+}
+.header__nav-menu {
+    display: flex;
+    align-items: center;
+}
+.nav__ul {
+    margin:0 55px 0 5px;
+    position: relative;
+    color: #95E1D3;
+    font-family: 'Montserrat';
+    transition: 0.4s;
+}
+.header__nav-menu a{
+    text-decoration: none;
+}
+.nav__ul::after{
+    content:'';
+    width: 0%;
+    position: absolute;
+    height: 3px;
+    background-color: #F38181;
+    bottom: -10px;
+    left: 0;
+    transition: 0.4s;
+}
+.nav__ul:hover::after{
+    width: 100%;
+}
+.nav__ul:hover{
+    color: #F38181;
+}
+.main {
+}
+.conteiner {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+.resept {
+    width: 700px;
+}
+.ingridiens {
+    margin-bottom: 50px;
+}
+.cooking {
+    margin: 0 auto;
+}
+.img{
+    width: 700px;
+    background-image: url(./img/1200_0_1621257628-4746.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -60px;
+}
+.product {
+    font-size: 30px;
+}
+.text__cooking {
+    margin: 0 auto;
+    font-size: 20px;
+    color: #2523239b;
+}
+h1{
+    margin-bottom: 40px;
+}
